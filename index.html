@@ -9,8 +9,8 @@
         <title>Movie planner</title>
     </head>
     <body>
-        <h1 class="topheader">Movie planner Finnkino teattereille</h1>
-        <h3>Valitse teatteri</h3>
+        <h1 class="topheader">Movie planner Finnkino-teattereille</h1>
+        <h3>Valitse teatteri tai kaupunki</h3>
         <select name="theaters" id="theaters">
             <option value="1014">Pääkaupunkiseutu</option>
             <option value="1012">Espoo</option>
@@ -35,9 +35,13 @@
             <option value="1022">Turku: KINOPALATSI</option>
             <option value="1046">Raisio: LUXE MYLLY</option>
         </select>
-        <button onclick="searchTheater()" id="searchTheater", >Search</button>
-        <div id="movies"></div>
-        <script src="./js/scripts.js"></script>
+        <div id="date">
+            <label>Valitse päivämäärä</label>
+            <input id="dateInput" type="date" onmouseover="todaydate()" value="" min="2025-01-01" max="2026-12-31"> 
+        </div>
+        <button onclick="searchTheater()" id="searchTheater" class="btn btn-secondary", >Hae näytökset</button>
+        <div id="movies" class="container text-center"></div>
+        <script src="js/scripts.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
         <p2 class="oma">Created by ErnoK003</p2>
     </body>

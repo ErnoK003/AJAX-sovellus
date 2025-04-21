@@ -30,17 +30,20 @@ p {
 }
 
 .oma {
-    font-size: 10px;
-    bottom: 2px;
+    font-size: 11px;
+    color: white;
+    bottom: 4px;
     position: sticky;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.1rem;
 }
 
-h2 {
-    margin-top: 3%;
-    opacity: 0%;
+h1 {
+    margin-top: 1.3rem;
 }
 
-.div {
-    float: left;
-    font-size: large;
+.col {
+    margin-top: 1rem;
+    padding: 0%;
+    background-color: lightgrey;
 }
