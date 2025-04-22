@@ -66,7 +66,7 @@ searchTheater = () =>{
 
             elokuvainfot.forEach(elokuvainfo => {  //käydään läpi elokuvainfot taulukko ja lisätään jokainen elokuva omaan div-elementiin
                 const moviediv = document.createElement('div'); // luodaan uusi div-elementti, johon lisätään kaikki elokuvan tiedot
-                moviediv.classList.add("container","col","col-xs-1","col-sm-1","col-md-2","col-lg-3","col-xl-3","col-xxl-3"); // asetetaan div-elementin luokaksi "col-sm-12 col-md-6 col-lg-4 col-xl-3", jotta se menee riviin ja on responsiivinen
+                moviediv.classList.add("col"); // asetetaan div-elementin luokaksi "col-sm-12 col-md-6 col-lg-4 col-xl-3", jotta se menee riviin ja on responsiivinen
             
                 const movieinfo = document.createElement('p'); // luodaan uusi p-elementti, johon lisätään elokuvan info
                 movieinfo.style.fontSize = '17px';
