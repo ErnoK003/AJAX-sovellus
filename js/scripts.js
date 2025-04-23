@@ -80,7 +80,6 @@ searchTheater = () =>{
                 moviediv.appendChild(movieinfo); // lisätään p-elementti div-elementtiin
                 movielink.appendChild(moviebanner); // lisätään img-elementti a-elementtiin
                 moviediv.appendChild(movielink); // lisätään img-elementti div-elementtiin
-                //moviediv.classList.add("col")
             
                 if (elokuvia > 2) {
                     movies.appendChild(row); // lisätään täysi rivi elokuvien div-elementin alle

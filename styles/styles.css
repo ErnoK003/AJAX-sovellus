@@ -19,13 +19,11 @@ button {
 
 p {
     display: inline;
-    margin: 0.25%;
 }
 
-@media (max-width: 266px) {
-    body {
-        display: block;
-        overflow:auto;
+@media (max-width: 425px) {
+    p {
+        size: 5rem;
     }
 }
 
@@ -73,10 +71,9 @@ img {
     width: 100%;
     height: auto;
     border-radius: 0.3rem;
-    border-top: 0;
 }
 
-.col-sm-1 {
+.col {
     width: 100%;
     height: auto;
 }
