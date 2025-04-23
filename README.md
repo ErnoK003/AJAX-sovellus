@@ -1,4 +1,4 @@
-# AJAX-sovellus projekti
+# AJAX-app project
 Movie planner for Finnkino theaters by ErnoK003
 
 ## Demo link:
